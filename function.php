@@ -1,3 +1,5 @@
+<?php
+
 # function that downloads new posts from reddit api
 function get_reddit_posts($subreddit, $limit, $sort, $timeframe)
 {
@@ -25,3 +27,5 @@ echo $reddit_results['url'];
 #echo "<pre>";
 #print_r($reddit_results);
 #echo "</pre>";
+
+?>
